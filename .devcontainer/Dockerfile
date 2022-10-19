@@ -6,6 +6,8 @@ FROM mcr.microsoft.com/vscode/devcontainers/universal:2-focal
 USER root
 
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
-    && apt-get -y install --no-install-recommends micropython
+    && apt-get -y install --no-install-recommends micropython mosquitto
+
+COPY ./mosquitto.conf /mosquitto/config/mosquitto.conf
 
 USER codespace
