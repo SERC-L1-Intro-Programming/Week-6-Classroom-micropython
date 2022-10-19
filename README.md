@@ -1,14 +1,10 @@
-# Week 1 - Classroom
+# Week 6 - Classroom
 
-Workspace for week 1 in class exercises.
+Workspace for week 5 in class exercises.
 
 Covered this week:
 
-- [ ] Hello world
-- [ ] Variables
-- [ ] Adding numbers
-- [ ] Adding text
-- [ ] Type conversion
-- [ ] Commenting code
-- [ ] My name script
-- [ ] User input
+- [ ] Connecting to a network
+- [ ] Sending MQTT messages
+- [ ] Receiving MQTT messages
+- [ ] Who is hottest?
